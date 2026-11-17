@@ -1,4 +1,4 @@
-# No Chat Reports
+# NCR
 
 <a href="https://www.curseforge.com/minecraft/mc-mods/no-chat-reports"><img alt="curseforge" height="28" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/available/curseforge_vector.svg"></a> <a href="https://modrinth.com/mod/no-chat-reports"><img alt="modrinth" height="28" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/available/modrinth_vector.svg"></a> <a href="https://github.com/Aizistral-Studios/No-Chat-Reports"><img alt="github" height="28" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/available/github_vector.svg"></a> <a href="https://gitlab.com/Aizistral-Studios/No-Chat-Reports"><img alt="gitlab" height="28" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/compact/available/gitlab_vector.svg"></a>
 
@@ -12,7 +12,7 @@ Also, while there are many plugins out there that "borrow" the name and even ico
 
 ## Installation and Usage:
 
-NoChatReports supports both Fabric and Forge, just download the version for your respective modloader and game version. It can be installed on either the client, server, or on both sides, and will function differently depending on which sides it is present on:
+NCR supports both Fabric and Forge, just download the version for your respective modloader and game version. It can be installed on either the client, server, or on both sides, and will function differently depending on which sides it is present on:
 
 **1. Only Client:** The client will refuse to send the account's public key to the server, and signatures will be stripped from the messages that you send. This way it won't be useful to try and report your messages, as there will be no proof that they were actually sent from your account. The server will relay them unless the `enforce-secure-profile` option is set to `true` in the `server.properties` file (which it is by default since 1.19.1)
 
